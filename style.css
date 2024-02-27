@@ -1,0 +1,98 @@
+body{
+        margin: 0; 
+        padding: 0;
+        font-family: "Figtree", sans-serif;
+}
+.home{
+    width: 100%;
+    background-color:hsl(47, 88%, 63%);
+    height: 100vh;
+    display: flex;
+    justify-content:center ;
+    margin: auto;
+    align-items: center;
+}
+.parent{
+    width: 30%;
+    background-color: hsl(0, 0%, 100%);
+    height: auto;
+    border-radius: 15px;
+    border: 1px solid hsl(0, 0%, 50%);
+    box-shadow: 5px 5px 0px hsl(0, 0%, 7%);
+    padding: 20px;
+}
+.content{
+
+    height: 85vh;
+    width: calc();
+    border-radius: 10px;
+}
+.img{
+    height: 250px;
+    background-image: url(./images/illustration-article.svg);
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+
+}
+.btn{
+    width: calc();
+    height: 80px;
+    margin-top: 20px;
+    button{
+        background-color:hsl(47, 88%, 63%) ;
+        border-radius: 5px;
+        border: solid 1px hsl(47, 88%, 63%);
+        height: 30px;
+        width: 100px;
+        font-size: 16px;
+        font-weight: 700;
+        font-family:"Figtree", sans-serif ;
+    }
+    font-size: 16px;
+    font-weight: 700;
+}
+.text{
+    p{
+        color: hsl(0, 0%, 50%);
+        font-size: 16px;
+    }
+}
+.icon{
+    display: flex;
+    margin-top: 20px;
+    h2{
+        margin-left: 15px;
+    }
+}
+.h:hover{
+    color: hsl(47, 88%, 63%);
+}
+@media(max-width:375px){
+    .parent{
+        width: 80%;
+        padding:15px;
+
+    }
+
+    .home{
+        height: 110vh;
+    }
+    .content{
+        height: 85vh;
+    }
+    .text{
+        width:100%;
+        h1{
+            font-weight: 800;
+            font-size: 16px;
+        }
+        margin-top: -15px;
+    }
+    .img{
+        height: 200px;
+    }
+    h2:hover{
+        color:hsl(47, 88%, 63%) ;
+    }
+}
